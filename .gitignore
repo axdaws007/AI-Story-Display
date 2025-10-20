@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+dist/
+images/
+lora_tests/
+lora_training/
+stories/
+*.egg-info/
+.pytest_cache/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Environment variables
+.env
+.env.local
+
+# Model files (if large)
+*.bin
+*.onnx
+*.tflite
+
+# Data files
+*.csv
+*.json
+data/
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
